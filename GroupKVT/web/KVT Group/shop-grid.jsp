@@ -65,17 +65,18 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="./index.jsp">Home</a></li>
-                <li><a href="./shop-grid.jsp">Shop</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.jsp">Shop Details</a></li>
-                        <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
-                        <li><a href="./checkout.jsp">Check Out</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.jsp">Contact</a></li>
-            </ul>
+                            <li class="active"><a href="./index.jsp">Home</a></li>
+                            <li class=""><a href="./blog.jsp">Blog</a></li>
+                            <li><a href="./shop-grid.jsp">Shop</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="header__menu__dropdown">
+                                    <li><a href="./shop-details.jsp">Shop Details</a></li>
+                                    <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
+                                    <li><a href="./checkout.jsp">Check Out</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.jsp">Contact</a></li>
+                </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
@@ -137,9 +138,10 @@
                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu">
-                        <ul>
-                            <li><a href="./index.jsp">Home</a></li>
-                            <li class="active"><a href="./shop-grid.jsp">Shop</a></li>
+                      <ul>
+                            <li class="active"><a href="./index.jsp">Home</a></li>
+                            <li class=""><a href="./blog.jsp">Blog</a></li>
+                            <li><a href="./shop-grid.jsp">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.jsp">Shop Details</a></li>
@@ -148,7 +150,7 @@
                                 </ul>
                             </li>
                             <li><a href="./contact.jsp">Contact</a></li>
-                        </ul>
+                </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3">
@@ -792,7 +794,7 @@
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
                         <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100007033081682"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
