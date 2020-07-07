@@ -57,14 +57,25 @@
                     <li><a href="#">English</a></li>
                 </ul>
             </div>
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
+            <div class="header__top__right__language">
+                <div><a href="">Login</a></div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                            <li><a href="#" class="fb btn">
+                                    <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                                </a></li>
+                            <li> <a href="#" class="twitter btn">
+                                    <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                                </a></li>
+                            <li><a href="#" class="google btn"><i class="fa fa-google fa-fw"></i> Login with Google+</a></li>
+                        
+                  </ul>
             </div>
+           
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="./index.jsp">Home</a></li>
-                <li class="blog"><a href="./"</li>
+               <li class="active"><a href="./index.jsp">Home</a></li>
                 <li><a href="./shop-grid.jsp">Shop</a></li>
                 <li><a href="#">Pages</a>
                     <ul class="header__menu__dropdown">
@@ -73,6 +84,7 @@
                         <li><a href="./checkout.jsp">Check Out</a></li>
                     </ul>
                 </li>
+                <li><a href="./blog.jsp">Blog</a></li>
                 <li><a href="./contact.jsp">Contact</a></li>
             </ul>
         </nav>
@@ -119,9 +131,23 @@
                                     <li><a href="#">English</a></li>
                                 </ul>
                             </div>
-                            <div class="header__top__right__auth">
+<!--                            <div >
                                 <a href="#"><i class="fa fa-user"></i> Login</a>
-                            </div>
+                            </div>-->
+<div class="header__top__right__language">
+                <div class="header__top__right__auth"><a href="">Login</a></div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                            <li><a href="#" class="fb btn">
+                                    <i class="fa fa-facebook fa-fw"></i> Login Facebook
+                                </a></li>
+                            <li> <a href="#" class="twitter btn">
+                                    <i class="fa fa-twitter fa-fw"></i> Login Twitter
+                                </a></li>
+                            <li><a href="#" class="google btn"><i class="fa fa-google fa-fw"></i> Login Google+</a></li>
+                        
+                  </ul>
+            </div>
                         </div>
                     </div>
                 </div>
@@ -138,15 +164,16 @@
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="./index.jsp">Home</a></li>
-                            <li><a href="./shop-grid.jsp">Shop</a></li>
-                            <li><a href="#">Pages</a>
+                            <li class="active"><a href="./blog.jsp">Blog</a></li>
+                            <li><a class ="active" href="./shop-grid.jsp">Shop</a></li>
+                            <li><a class ="active" href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./shop-details.jsp">Shop Details</a></li>
                                     <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
                                     <li><a href="./checkout.jsp">Check Out</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./contact.jsp">Contact</a></li>
+                            <li><a class ="active" href="./contact.jsp">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -680,7 +707,7 @@
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
                         <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="https://www.facebook.com/profile.php?id=100007033081682"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-pinterest"></i></a>
